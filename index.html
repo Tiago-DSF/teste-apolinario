@@ -67,14 +67,14 @@
                                     </li> -->
                                     <li><a href="about.html">Metodologia</a></li>
                                     <li><a href="about.html">Quem Somos</a></li>
-                                    <li><a href="#">blog</a>
+                                    <li><a href="#" class="d-none">blog</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">Metodologia</a></li>
                                             <li><a href="single-blog.html">Projetos</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="contact.html">Recursos Multimídia</a></li>
+                                    <!-- <li><a href="contact.html">Recursos Multimídia</a></li> -->
                                 </ul>
                             </nav>
                         </div>
@@ -94,7 +94,12 @@
 <div class="slider_area">
     <div class="slider_active owl-carousel">
         <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
-            <div class="container">
+            <div class="video-bg-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: 1;">
+                <video autoplay loop muted playsinline style="width: 100vw; height: 100vh; object-fit: cover; min-width: 100%; min-height: 100%;">
+                    <source src="img/gallery/servicos/IMG_7705.webm" type="video/mp4">
+                </video>
+            </div>
+            <div class="container" style="position: relative; z-index: 2;">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-md-8">
                         <div class="slider_text">
@@ -105,7 +110,6 @@
                                 class="boxed-btn3" target="_blank">
                                 <i class="fab fa-whatsapp"></i>Solicitar Orçamento
                             </a>
-
                         </div>
                     </div>
                 </div>

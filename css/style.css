@@ -1235,7 +1235,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/bg-topo.webp);
+  /* background-image: url(../img/banner/bg-topo.webp); video do banner */
 }
 
 /* line 4, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_slider.scss */
@@ -2600,7 +2600,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/gallery/servicos/pronto1.avif);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/237. Real Estate/HTML/scss/_bradcam.scss */
