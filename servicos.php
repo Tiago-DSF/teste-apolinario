@@ -60,14 +60,14 @@
                                     <li><a href="about.html">Metodologia</a></li>
 
                                         <li><a href="about.html">Quem Somos</a></li>
-                                        <li><a href="#">blog</a>
+                                        <li><a href="#"style="display:none">blog</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Metodologia</a></li>
                                                 <li><a href="single-blog.html">Projetos</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="contact.html">Recursos Multimídia</a></li>
+                                        <!-- <li><a href="contact.html">Recursos Multimídia</a></li> -->
                                     </ul>
                                 </nav>
                             </div>
